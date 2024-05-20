@@ -1,59 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3 Cards Centralizados com HTML e CSS</title>
 </head>
+
 <body>
-    <div class="container">
+
+  <!-- Container para os cards -->
+  <div class="card-container">
+    <!-- Card 1 -->
     <div class="card">
-        <img src="https://lh3.googleusercontent.com/p/AF1QipMQyi6HLXSvh-8E-mNctXZ4NjGe_yMLnzdkFOX2=s680-w680-h510" class="card-img-top" alt="speed">
-      
-        <div class="card-body">
-          <h5 class="card-title">Speed Tuck</h5>
-            <a>Cargo: </a><a class="card-text">Assistente de Departamento Pessoal</a>
-            <p>
-            <a>Periodo: </a><a class="card-text">03/2019 à 05/2022</a>
-            <p>
-            <a>Principais atividades: </a><a class="card-text">
-                <li>Gerar folha de pagamento de todos os funcionários</li>
-                <li>Controle de benefícios</li>
-                <li>Controle de EPI</li>
-                <li>Recrutamento e seleção</li>
-                <li>Processo de rescisão</li>
-                </a>         
-            <p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card">
-        <img src="https://lh3.googleusercontent.com/p/AF1QipMQyi6HLXSvh-8E-mNctXZ4NjGe_yMLnzdkFOX2=s680-w680-h510" class="card-img-top" alt="speed">
-      
-        <div class="card-body">
-          <h5 class="card-title">Speed Tuck</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-      <div class="card">
-        <img src="https://www.grupogsh.com/wp-content/uploads/2023/02/Banner-para-site_PT.png" class="card-img-top" alt="speed">
-      
-        <div class="card-body">
-            <a>Cargo: </a><a class="card-text">Assistente de TI</a>
-            <p>
-                <a>Periodo: </a><a class="card-text">04/2024 à Atualmente</a>
-            <p>
-            <a>Principais atividades: </a><a class="card-text">
-                <li>Controle de acesso a sistemas</li>
-                <li>Tratar alertas de segurança</li>
-                <li>Assistência nos projetos de RPA</li>
-                <li>Suporte aos sistemas da empresa</li>
-                </a>         
-            <p>
-          <a href="https://br.linkedin.com/company/gsh-corp?trk=public_post_follow-view-profile" class="btn btn-primary">Linkedin</a>
-        </div>
+      <img src="https://www.grupogsh.com/wp-content/uploads/2023/02/Banner-para-site_PT.png" alt="Imagem do Card 1">
+      <div class="card-content">
+        <h2 class="card-title">Assistente de TI</h2>
+        <p class="card-description"><a>Periodo: </a><a>04/2024 à Atualmente</a></p>
+        <p class="card-description">            
+          <a>Principais atividades: </a><a class="card-text">
+          <li>Controle de acesso a sistemas</li>
+          <li>Tratar alertas de segurança</li>
+          <li>Assistência nos projetos de RPA</li>
+          <li>Suporte aos sistemas da empresa</li>
+          </a> </p>
       </div>
     </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+      <img src="https://www.grupogsh.com/wp-content/uploads/2023/02/Banner-para-site_PT.png" alt="Imagem do Card 2">
+      <div class="card-content">
+        <h2 class="card-title">Estagiária de TI</h2>
+        <p class="card-description">
+          <a>Periodo: </a><a class="card-text">08/2022 à 03/2024</a>
+        </p>
+        <p class="card-description">
+          <a>Principais atividades: </a><a class="card-text">
+            <li>Suporte a sistemas</li>
+            <li>Suporte em infraestrutura</li>
+            <li>Acompanhamento de projetos</li>
+            <li>Controle de estoque</li>
+            </a> 
+        </p>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+      <img src="https://lh3.googleusercontent.com/p/AF1QipMQyi6HLXSvh-8E-mNctXZ4NjGe_yMLnzdkFOX2=s680-w680-h510" class = "guincho" alt="Imagem do Card 3">
+      <div class="card-content">
+        <h2 class="card-title">Assistente de Departamento Pessoal</h2>
+        <p class="card-description">
+          <a>Periodo: </a><a class="card-text">03/2019 à 05/2022</a>
+        </p>
+        <p class="card-description">
+          <a>Principais atividades: </a><a class="card-text">
+            <li>Gerar folha de pagamento de todos os funcionários</li>
+            <li>Controle de benefícios</li>
+            <li>Controle de EPI</li>
+            <li>Recrutamento e seleção</li>
+            <li>Processo de rescisão</li>
+            </a> 
+        </p>
+      </div>
+    </div>
+  </div>
+
 </body>
+
 </html>
